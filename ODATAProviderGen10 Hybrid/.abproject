@@ -1,0 +1,48 @@
+{
+  "ProjectName": "ODATAProviderGen10 Hybrid",
+  "ProjectGuid": "ff9d86ce-5ba5-42b3-86e8-531c503cdb5b",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.ODATAProviderGen10Hybrid",
+  "DisplayName": "ODATAProviderGen10 Hybrid",
+  "Author": "",
+  "Description": "ODATAProviderGen10 Hybrid",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{e610cc12-b29c-4cd0-a3cb-3129d9c6fc27}",
+  "WP8ProductID": "{ea904af8-ebb5-4dbd-8ee9-72471b4601da}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.ODATAProviderGen10Hybrid",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.network-information"
+  ]
+}
