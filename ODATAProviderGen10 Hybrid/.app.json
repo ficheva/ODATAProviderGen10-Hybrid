@@ -1,15 +1,48 @@
 {
   "type": "kendo-ui-mobile",
-  "isNew": true,
+  "views": [
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "homeView",
+      "components": [],
+      "title": "Home View",
+      "addToNavigation": true,
+      "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "dataListView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:list",
+          "name": "dataListViewModel",
+          "dataProvider": "odata",
+          "collection": "odata",
+          "headerField": "ProductName",
+          "masterDetails": true,
+          "detailSubHeaderField": "QuantityPerUnit",
+          "detailDescriptionField": "UnitPrice",
+          "pullToRefresh": false,
+          "endlessScroll": false
+        }
+      ],
+      "title": "Data List",
+      "addToNavigation": true,
+      "icon": "organize"
+    }
+  ],
   "dataProviders": [
     {
-      "type": "dataProvider",
-      "title": "DefaultProvider",
-      "name": "defaultProvider",
-      "source": "everlive",
-      "offlineStorage": true,
-      "everliveKey": "ldNC7YaqvliBStC1",
-      "everliveUrl": ""
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "odata",
+      "title": "odata",
+      "source": "odata",
+      "url": "http://services.odata.org/V2/Northwind/Northwind.svc/Products"
     }
-  ]
+  ],
+  "name": "kendoUiMobileApp",
+  "navigation": "tabstrip",
+  "view": "homeView",
+  "transition": "slide",
+  "skin": "flat"
 }
